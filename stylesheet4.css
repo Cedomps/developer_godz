@@ -1,0 +1,52 @@
+*{
+    margin: auto 50px;
+}
+body{
+    background-color: black;
+    color: #84c754;
+    font-family: Courier New;
+}
+.first{
+    border: 1px solid white;
+    padding: 5px;
+    width: 30%;
+    height: 180px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    right: 0%;
+    border-radius: 5px;
+    top: 0%;
+}
+.first a:hover{
+    color: white;
+}
+.box{
+    position: relative;
+    height: 200px;
+    width: 96%;
+}
+#box a{
+    color: #84c754;
+}
+#box :hover{
+    color: white;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-align: left;
+}
+a:hover{
+    color: #84c754;
+}
+.last p{
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
+    height: 30%;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-size: 4mm;
+}
